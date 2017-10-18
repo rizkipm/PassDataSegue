@@ -14,6 +14,7 @@
 		9ACC7CE71F96F9D0007D085F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC7CE51F96F9D0007D085F /* LaunchScreen.storyboard */; };
 		9ACC7CF21F96F9D0007D085F /* Passing_Data_SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC7CF11F96F9D0007D085F /* Passing_Data_SegueTests.swift */; };
 		9ACC7CFD1F96F9D0007D085F /* Passing_Data_SegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC7CFC1F96F9D0007D085F /* Passing_Data_SegueUITests.swift */; };
+		9ACC7D0B1F96FD00007D085F /* GetDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC7D0A1F96FD00007D085F /* GetDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9ACC7CF81F96F9D0007D085F /* Passing Data SegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data SegueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACC7CFC1F96F9D0007D085F /* Passing_Data_SegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passing_Data_SegueUITests.swift; sourceTree = "<group>"; };
 		9ACC7CFE1F96F9D0007D085F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACC7D0A1F96FD00007D085F /* GetDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9ACC7CE31F96F9D0007D085F /* Assets.xcassets */,
 				9ACC7CE51F96F9D0007D085F /* LaunchScreen.storyboard */,
 				9ACC7CE81F96F9D0007D085F /* Info.plist */,
+				9ACC7D0A1F96FD00007D085F /* GetDataViewController.swift */,
 			);
 			path = "Passing Data Segue";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACC7D0B1F96FD00007D085F /* GetDataViewController.swift in Sources */,
 				9ACC7CDF1F96F9D0007D085F /* ViewController.swift in Sources */,
 				9ACC7CDD1F96F9D0007D085F /* AppDelegate.swift in Sources */,
 			);
