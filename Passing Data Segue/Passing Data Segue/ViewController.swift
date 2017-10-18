@@ -19,9 +19,16 @@ class ViewController: UIViewController {
     }
     
     //tambahkan method perform segue untuk proses pengiriman data
-    override func performSegue(withIdentifier identifier: String, sender: Any?) {
-        
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //mengecek apakah segue dengan nama passData ada atau tidak
+                if (segue.identifier == "passData"){
+                    //deklarasi kirimData sebagai destinasi segue dengan nama view controller : GetDataViewController
+                    let kirimData = segue.destination as! GetDataViewController
+                    
+                }
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
