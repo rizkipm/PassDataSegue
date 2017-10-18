@@ -26,6 +26,15 @@ class ViewController: UIViewController {
                     //deklarasi kirimData sebagai destinasi segue dengan nama view controller : GetDataViewController
                     let kirimData = segue.destination as! GetDataViewController
                     
+                    //put data yang akan dikrim
+                    //mengirimkan data username
+                    kirimData.username = etUsername.text!
+                    //mengirimkan data email
+                    kirimData.email = etEmail.text!
+                    //mengirimkan data password
+                    kirimData.password = etPassword.text!
+                    
+                    
                 }
     }
 

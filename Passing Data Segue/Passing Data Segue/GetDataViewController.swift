@@ -9,6 +9,12 @@
 import UIKit
 
 class GetDataViewController: UIViewController {
+    //membuat variable untuk menampung data username, password dan email
+    
+    var username = ""
+    var password = ""
+    var email = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
