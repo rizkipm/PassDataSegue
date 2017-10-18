@@ -10,7 +10,10 @@ import UIKit
 
 class GetDataViewController: UIViewController {
     //membuat variable untuk menampung data username, password dan email
+    @IBOutlet weak var labelEmail: UILabel!
     
+    @IBOutlet weak var labelPassword: UILabel!
+    @IBOutlet weak var labelUsername: UILabel!
     var username = ""
     var password = ""
     var email = ""
@@ -19,7 +22,10 @@ class GetDataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //memasukkan nilai yang sudah dikirimkan tadi ke label masing2
+        labelUsername.text = "Hello, " + username
+        labelPassword.text = "Your Password is : " + password
+        labelEmail.text = "Your Email is : " + email
     }
 
     override func didReceiveMemoryWarning() {
