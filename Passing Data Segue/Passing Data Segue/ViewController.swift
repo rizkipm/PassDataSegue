@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var etEmail: UITextField!
+    @IBOutlet weak var etPassword: UITextField!
+    @IBOutlet weak var etUsername: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    //tambahkan method perform segue untuk proses pengiriman data
+    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+        
     }
 
     override func didReceiveMemoryWarning() {

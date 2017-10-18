@@ -58,6 +58,11 @@
                         <color key="backgroundColor" red="1" green="0.96769080887116865" blue="0.7517570142794654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="etEmail" destination="nR9-F0-01R" id="2Ku-xs-bzK"/>
+                        <outlet property="etPassword" destination="zUH-Vl-GdY" id="816-2w-NxJ"/>
+                        <outlet property="etUsername" destination="crv-5G-UBL" id="7ub-WV-ENG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
